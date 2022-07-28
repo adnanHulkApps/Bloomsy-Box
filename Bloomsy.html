@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bloomsy Box</title>
+  <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;500&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/png" href="./Images/bloomsLogo.png">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light nav_container px-1 px-sm-4 px-md-5">
+    <div class="container-fluid z d-flex justify-content-between px-0 ">
+      <a href="#" class="navbar-brand ">
+        <img src="./Images/BloomsyBox@2x.png" alt="brand logo" id="brand">
+      </a>
+
+      <!-- Toggle button for small screens -->
+
+      <button class="navbar-toggler text-danger p-0 border-0 rounded" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+        aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--Navbar links-->
+
+      <div class="collapse navbar-collapse justify-content-start align-items-center ms-lg-3" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link p-0 me-4 me-xl-5" href="#subscribe">SUBSCRIBE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-0 me-4 me-xl-5" href="#howitworks">HOW IT WORKS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-0 me-4 me-xl-5" href="#ourvision">OUR VISION</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-0 me-4 me-xl-5" href="#shop">SHOP</a>
+          </li>
+        </ul>
+      </div>
+
+      <!--Person and basket icons-->
+
+      <li class="nav-item ms-2 d-none d-lg-inline">
+        <a class="nav_icon" href="#"><img src="./Images/person_icon.svg" alt="person icon" class="me-4 person_icon"></a>
+        <a class="nav_icon" href="#"><img src="./Images/basket_icon.svg" alt="basket icon" class="ms-2 basket_icon"></a>
+        
+        <span class="text-danger basket_items">0</span>
+      </li>
+    </div>
+  </nav>
+
+  <!--Hero Section-->
+
+  <div class="container-fluid position-relative" style="
+        background-image: url(./Images/firstImage.jpg);
+        height: calc(100vh - 75px);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      ">
+    <div class="card border-0 position-absolute top-50 start-50 translate-middle bg-transparent">
+      <div class="card-body text-center">
+        <h1 class="card-title">Beautiful Flowers</h1>
+        <h4 class="card-subtitle mb-2 mt-1">BY SUBSCRIPTION</h4>
+        <p class="card-text mt-4 mx-auto ">
+          Handpicked, hand-tied bouquets sent from sustainable farms around
+          the globe. Choose from weekly, bi-weekly, or monthly deliveries.
+        </p>
+
+        <button class="btn d-inline-flex align-items-center justify-content-center myBtn  mt-4 mt-sm-5 rounded me-sm-2">
+          <a href="#" class="card-link text-white text-decoration-none align-items-center px-3">GET STARTED</a>
+        </button>
+        <button
+          class=" transparent-btn btn d-inline-flex align-items-center justify-content-center bg-transparent   mt-4 mt-sm-5 rounded ms-sm-2">
+          <a href="#" class="card-link text-dark text-decoration-none align-items-center px-3">GIFT FLOWERS</a>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!--Farm To Table Section-->
+
+  <div class="container-fluid">
+    <div class="row justify-content-center align-items-center  image_and_text_container p-4 p-lg-0">
+
+      <div class="flower_img_container  col-lg-7 pe-lg-3 ">
+        <img src="./Images/secondImage.png" alt="second image" class="img-fluid ">
+      </div>
+
+      <div class="col-lg-5  text-center text-lg-start pt-3 pt-lg-0  flower_text_container ps-lg-3">
+        <h5 class="card-title2">THINK THE FARM TO TABLE TREND</h5>
+        <h3 class="card-subtitle2 mb-2 mb-lg-0 mt-2">Farm To Table</h3>
+        <p class="  mt-3 card-text text-center text-lg-start mx-auto mx-lg-0 card-text2">
+          Think the Farm to Table trend is only for food? Think again! Your
+          flowers are arranged right on the farm where they are grown and
+          sent directly to your doorstep. We partner with sustainable farms
+          around the globe to provide you with the most beautiful and unique
+          blooms arround. Each stem we shiop is hand-picked and cut 2-4 days
+          before you receive them, ensuring quality and freshness.
+        </p>
+        <button class="red btn d-inline-flex align-items-center justify-content-center myBtn rounded mt-5 me-xl-2">
+          <a href="#" class="card-link text-white text-decoration-none align-items-center px-3 ">VIEW
+            MORE</a>
+        </button>
+        <button
+          class="rounded transparent-btn btn d-inline-flex align-items-center justify-content-center bg-transparent mt-4 mt-xl-0 gift_flowers_btn ms-xl-2">
+          <a href="#" class="card-link text-dark text-decoration-none  px-3">GIFT
+            FLOWERS</a>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Image and Form Section-->
+
+  <div class="container-fluid">
+    <div class="row image_and_form_container mx-auto">
+      <div class="col-xl-6 position-relative third_image px-0 ">
+        <img src="./Images/Screen Shot 2018-08-31 at 5.28.39 PM@2x.png" alt="third image small screen"
+          class="d-xl-none img-fluid h-100 w-100" style="background:rgba(0,0,0,1);">
+        <img src="./Images//thirdImage.png" alt="third image big screen"
+          class="img-fluid h-100 w-100 d-none d-xl-block">
+        <div
+          class="position-absolute top-50 start-50 translate-middle text-white  d-flex justify-content-center  pt-5 pb-5  absolute_container">
+          <div class="cc">
+            <h2 class=" border-bottom  text-start   mx-xl-0 decoration_text pb-30" style="width:max-content;">
+              Office Decoration That <br> Make
+              Us Feel Good</h2>
+            <h4 class=" third-subtitle text-start  mx-xl-0 pt-30 text-white">SIGN UP NOW FOR A FREE
+              CONSULTATION
+            </h4>
+            <p class="third-p fw-light text-start  mx-xl-0 text-white">Get fresh Blooms for
+              where you work every
+              week! We'll get you set up with a free vase for your first order
+              to make sure your Blooms are perfectly displayed.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="formContainer col-xl-6  d-flex ">
+        <form class="row form_row p-xl-0 m-0 gy-3 align-items-center">
+
+          <div class="form-floating col-sm-6">
+            <input type="text" class="form-control border-0 shadow-none" id="firstName" placeholder="First Name" name="First Name">
+            <label for="First Name">First Name</label>
+          </div>
+          <div class="form-floating col-sm-6">
+            <input type="text" class="form-control border-0 shadow-none" id="lastName" placeholder="Last Name" name="Last Name">
+            <label for="Last Name">Last Name</label>
+          </div>
+          <div class="form-floating col-sm-6">
+            <input type="text" class="form-control border-0 shadow-none" id="company" placeholder="Company" name="Company">
+            <label for="Company">Company</label>
+          </div>
+          <div class="form-floating col-sm-6">
+            <input type="text" class="form-control border-0 shadow-none" id="phone" placeholder="Phone" name="Phone">
+            <label for="Phone">Phone</label>
+          </div>
+
+          <div class="form-floating col-12">
+            <input type="email" class="form-control border-0 shadow-none" id="email" placeholder="Email" name="Email">
+            <label for="Email">Email</label>
+          </div>
+          <div class="form-floating">
+            <textarea class="form-control border-0 shadow-none" placeholder="Comments" id="floatingTextarea2"
+              style="height:120px !important"></textarea>
+            <label for="floatingTextarea2">Comments</label>
+          </div>
+          <div class=" d-flex justify-content-end" style="height:min-content">
+            <button class="btn border-2 text-white border-light px-4 myBtn rounded">SUBMIT</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+  <!--Footer-->
+
+  <div class="container-fluid ">
+    <div class="row justify-content-center align-items-center py-5 py-xl-0 footer_row" id="footer_row"
+      style="--bs-gutter-x:0">
+      <div class="col-xl-6 justify-content-around list_container d-sm-flex ">
+
+        <div class="xx d-flex flex-column  align-items-center">
+          <div class="first text-start  mt-4 mt-md-0  ">
+            <h5 class="text-danger fw-bold footer_list_title mb-xl-0">GET STARTED</h5>
+
+            <ul class=" list-unstyled  footer_ul">
+              <li class="mt-3 mt-md-4 mt-xl-0 footer_list_items">Subscribe</li>
+              <li class="mt-2 mt-md-3 mt-xl-0 footer_list_items">Give a Gift</li>
+              <li class="mt-2 mt-md-3 mt-xl-0 footer_list_items">Press</li>
+              <li class="mt-2 mt-md-3 mt-xl-0 footer_list_items">Blog</li>
+              <li class="mt-2 mt-md-3 mt-xl-0 footer_list_items">Office Box</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="xx d-flex flex-column  align-items-center">
+          <div class="second text-start  mt-4 mt-md-0">
+            <h5 class="text-danger fw-bold footer_list_title mb-xl-0">MAIN MENU</h5>
+            <ul class=" list-unstyled footer_ul">
+              <li class="mt-3 mt-md-4 mt-xl-0 footer_list_items">Closing Gift</li>
+              <li class="mt-2 mt-md-3 mt-xl-0 footer_list_items">Affiliate program</li>
+              <li class="mt-2 mt-md-3 mt-xl-0 footer_list_items">Wholesale Flowers</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="xx d-flex flex-column  align-items-center">
+          <div class="third text-start mt-4 mt-md-0">
+            <h5 class="text-danger fw-bold footer_list_title mb-xl-0">NEED HELP?</h5>
+            <ul class=" list-unstyled footer_ul">
+              <li class="mt-3 mt-md-4 mt-xl-0 footer_list_items">Contact</li>
+              <li class="mt-2 mt-md-3 mt-xl-0 footer_list_items">FAQs</li>
+              <li class="mt-2 mt-md-3 mt-xl-0 footer_list_items">Privacy Policy</li>
+              <li class="mt-2 mt-md-3 mt-xl-0 footer_list_items">Returns & Refunds</li>
+              <li class="mt-2 mt-md-3 mt-xl-0 footer_list_items">Shipping</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-6 mt-5 mt-xl-3 footer_right p-0 d-flex flex-column align-items-xl-center ">
+        <div class="xx_right">
+          <h6 class="text-center footer_right_title text-xl-start ">LET'S KEEP IN TOUCH</h6>
+          <p class=" text-center  footer_right_subtitle mt-3 mt-sm-4  text-xl-start mt-xl-0">Get $5 off, and
+            receive special offers, news and flower inspiration.</p>
+
+          <div
+            class="row d-flex flex-column align-items-center justify-content-center justify-content-xl-start flex-xl-row sign_up mt-xl-3"
+            style="--bs-gutter-x:0">
+            <div class="form-floating col-sm-6 mt-4 mx-lg-0 footer_form_container mt-xl-0 p-xl-0">
+              <input type="email" class="form-control border-0 shadow-none footer_input rounded bg-white" id="email" placeholder="Email" name="Email">
+              <label for="Email" id="footer_label">Your Email Address</label>
+            </div>
+            <div class=" col-sm-6 d-flex justify-content-center mt-4 mt-xl-0 ms-xl-2 footer_button_container p-xl-0">
+              <button class="btn btn-dark d-flex align-items-center justify-content-center w-100 sign_up_btn rounded text-light ms-xl-1">SIGN ME
+                UP</button>
+            </div>
+          </div>
+          <div class="social-media-icons mt-4 mt-sm-5 d-flex align-items-center col-sm-4 mx-auto mx-xl-0 mt-xl-0 justify-content-center justify-content-xl-start mt-xl-4">
+            <img src="./Images/Social Media Icons/Facebook.svg" alt="facebook icon" class="me-3 me-xl-4 " id='facebook'>
+            <img src="./Images/Social Media Icons/Instagram.svg" alt="instagram icon" class="me-3 me-xl-4 "
+              id='instagram'>
+            <img src="./Images/Social Media Icons/Twitter.svg" alt="twitter icon" class="me-3 me-xl-4 " id='twitter'>
+            <img src="./Images/Social Media Icons/P.svg" alt="pinterest icon" class="me-3 me-xl-4 " id='pinterest'>
+            <img src="./Images/Social Media Icons/YouTube.svg" alt="youtube icon" class="me-3 me-xl-4" id='youtube'>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  </div>
+  <script src="./bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+</body>
+
+</html>
